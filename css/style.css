@@ -1,0 +1,98 @@
+:root {
+    --fuente: "Space Mono", monospace;
+    --black: #333;
+    --gray: #4f4f4f;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: var(--fuente);
+    line-height: 1.5;
+}
+
+img {
+    width: 100%;
+}
+
+h1 {
+    font-size: 6rem;
+}
+
+p {
+    font-size: 2rem;
+}
+
+h1,
+p {
+    margin: 0;
+}
+
+.container {
+    max-width: min(140rem, 90%);
+    margin: 0 auto;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    align-items: center;
+}
+
+.not-found {
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-top: 2rem;
+    color: var(--black);
+}
+
+.flex {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.content-text {
+    height: 90%;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
+.title {
+    color: var(--black);
+}
+.information {
+    color: var(--gray);
+    line-height: 2;
+}
+
+.content-text .button {
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    background-color: var(--black);
+    color: white;
+    text-decoration: none;
+    padding: 2rem 4rem;
+}
+
+
+
+
+.created-by {
+    width: 100%;
+    text-align: center;
+}
