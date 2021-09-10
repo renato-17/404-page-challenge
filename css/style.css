@@ -24,12 +24,22 @@ img {
     width: 100%;
 }
 
+
 h1 {
-    font-size: 6rem;
+    font-size: 4rem;
 }
 
 p {
-    font-size: 2rem;
+    font-size: 1.5rem;
+}
+
+@media (min-width: 768px){
+    h1 {
+        font-size: 6rem;
+    }
+    p {
+        font-size: 2rem;
+    }
 }
 
 h1,
@@ -42,11 +52,14 @@ p {
     margin: 0 auto;
 }
 
-.content {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 2rem;
-    align-items: center;
+@media (min-width: 768px) {
+    .content {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+        align-items: center;
+    }
+     
 }
 
 .not-found {
@@ -57,12 +70,12 @@ p {
 }
 
 .flex {
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
 }
+
 
 .content-text {
     height: 90%;
@@ -81,19 +94,32 @@ p {
 }
 
 .content-text .button {
+    margin-top: 1rem;
     text-transform: uppercase;
-    font-size: 1.4rem;
+    font-size: 1rem;
     background-color: var(--black);
     color: white;
     text-decoration: none;
-    padding: 2rem 4rem;
+    padding: 1.5rem 2.5rem;
 }
 
-
+@media (min-width: 768px){
+    .content-text .button {
+        font-size: 1.4rem;
+        padding: 2rem 4rem;
+    }
+}
 
 
 .created-by {
-    width: 100%;
     text-align: center;
-    margin-bottom: 1rem;
+    margin: 2rem 0 ;
 }
+
+@media (min-width: 768px){
+    .created-by {
+        margin-bottom: 1rem;
+    }
+}
+
+
