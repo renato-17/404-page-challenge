@@ -8,15 +8,15 @@
 
 <div align="center">
   <h3>
-    <a href="https://renato-17.github.io/404-page-challenge/">
+    <a href="https://renato-17.github.io/404-page-challenge/" target="_blank">
       Demo
     </a>
     <span> | </span>
-    <a href="https://renato-17.github.io/404-page-challenge/">
+    <a href="https://renato-17.github.io/404-page-challenge/" target="_blank">
       Solution
     </a>
     <span> | </span>
-    <a href="https://devchallenges.io/challenges/wBunSb7FPrIepJZAg0sY">
+    <a href="https://devchallenges.io/challenges/wBunSb7FPrIepJZAg0sY" target="_blank">
       Challenge
     </a>
   </h3>
